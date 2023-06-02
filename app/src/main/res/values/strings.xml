@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TripArrangersFYP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">close</string>
+    <string name="close">open</string>
+
+
+</resources>
