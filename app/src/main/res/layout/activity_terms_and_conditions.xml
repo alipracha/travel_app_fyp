@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsAndConditions">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/TA_Toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradientbackground"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:text="Terms and Conditions"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/teal_200"
+        >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/fyplogo"
+        android:layout_marginStart="135dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:text="Contact Number:03165438680
+
+                                             Terms And Conditions (as at 15th June 2022)"
+        ></TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms And Conditions"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All rights reserved, including logos and all content on this Application. Reproduction is prohibited other than authorized by Trip Arrangers."
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By using this app, you consent to our privacy policy and terms and conditions contained in this agreement. By using Trip Arrangers you agree to be legally bound by these terms,which take effect immediately on your first use."
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The content of the app is for your general information and use only and may change without notice. We act to ensure that all information published on this app is up-to-date and accurate. However, we disclaim any liability for any loss or damage caused by errors, omissions, wrong information or any travel problem caused by information provided via Trip Arrangers. We don't provide any warrant or guarantee of any of the information found on this App.. You acknowledge that this information may contain mistakes and we exclude liability for any errors. Your use of any material on this Application is totally at your own risk, for which we are not liable. We disclaim all responsibility and liability for uses of any content obtained or in connection with the Trip Arrangers Application"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trip Arrangers grants you limited license to access and make personal use of our App, not including any resale or commercial use of Trip Arrangers app or its contents, any collection and use of any members' listing or profiles or any derivative use of this app or its contents. This app or any portion of it may not be reproduced in any way without our written consent. Any unauthorized use terminates the license or permission granted by Trip Arrangers"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/teal_200"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:text="Customer Relations Manager"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Email: sheeza.bsse3706@iiu.edu.pk"
+    ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="Phone Number: 03165438680"
+    ></TextView>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="International Islamic University, H-10, Islamabad"
+            android:layout_marginEnd="10dp"
+            ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</ScrollView>
