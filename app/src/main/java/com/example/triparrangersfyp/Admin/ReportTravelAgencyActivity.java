@@ -95,7 +95,7 @@ public class ReportTravelAgencyActivity extends AppCompatActivity {
         }
         System.out.println(map);
         for (String key : map.keySet()) {
-            int value = (Integer) map.get(key);
+            int value = map.get(key);
             reportsList.add(new Report(key, value));
         }
         adapter = new TravelAgencyReportAdapter(reportsList, getApplicationContext());

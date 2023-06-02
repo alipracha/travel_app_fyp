@@ -42,7 +42,7 @@ public class ReportRegisteredUserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report_registered_user);
 
-        tb=(Toolbar)findViewById(R.id.toolbars37);
+        tb= findViewById(R.id.toolbars37);
         setSupportActionBar(tb);
 
         tb.setNavigationOnClickListener(new View.OnClickListener() {

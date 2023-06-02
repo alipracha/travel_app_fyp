@@ -19,7 +19,7 @@ import java.util.List;
 public class CustomTripAdapter extends BaseAdapter {
 
 
-    private Context mContext;
+    private final Context mContext;
     List<CustomTrip> tripsList;
     LayoutInflater inflater;
 

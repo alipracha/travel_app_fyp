@@ -19,7 +19,7 @@ import com.example.triparrangersfyp.util.TinyDB;
 
 public class MainActivity extends AppCompatActivity {
     TinyDB tinyDB;
-    private static int counter = 5000;
+    private static final int counter = 5000;
 
     TextView tv;
     LottieAnimationView lottieAnimationView;

@@ -20,7 +20,7 @@ import java.util.List;
 
 public class NotificationAdapter extends BaseAdapter {
 
-    private Context mContext;
+    private final Context mContext;
     List<NotificationModel> notificationList;
     LayoutInflater inflater;
 

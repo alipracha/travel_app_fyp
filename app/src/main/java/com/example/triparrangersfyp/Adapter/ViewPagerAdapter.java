@@ -51,7 +51,7 @@ public class ViewPagerAdapter extends PagerAdapter {
                     .into(viewpagercontainer);
         } else {
             Glide.with(context)
-                    .load("https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=" + String.valueOf(placeDetailList.get(position) + "&key=AIzaSyByVdzDd2TZwqXqFxfoJRPgJJJviizwGdM"))
+                    .load("https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=" + placeDetailList.get(position) + "&key=AIzaSyByVdzDd2TZwqXqFxfoJRPgJJJviizwGdM")
                     .into(viewpagercontainer);
         }
 

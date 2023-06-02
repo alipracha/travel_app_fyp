@@ -43,7 +43,7 @@ public class ReportFeedbackActivity extends AppCompatActivity {
         setContentView(R.layout.activity_report_feedback);
 
 
-        tb = (Toolbar) findViewById(R.id.toolbar);
+        tb = findViewById(R.id.toolbar);
         setSupportActionBar(tb);
 
         tb.setNavigationOnClickListener(new View.OnClickListener() {

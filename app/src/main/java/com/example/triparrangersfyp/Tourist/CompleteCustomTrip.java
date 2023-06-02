@@ -59,8 +59,8 @@ public class CompleteCustomTrip extends AppCompatActivity {
     List<Integer> totalMembers = new ArrayList<>();
     String individualPrice;
     NotificationModel notificationModel;
-    DrawerLayout drawer;
-    NavigationView nav1;
+   /* DrawerLayout drawer;
+    NavigationView nav1;*/
     ImageView img;
     Toolbar toolbar;
     TinyDB tinyDb;
@@ -74,18 +74,18 @@ public class CompleteCustomTrip extends AppCompatActivity {
         tv = findViewById(R.id.TotalExpense);
         btn = findViewById(R.id.submitTotalExpense);
         tinyDb = new TinyDB(this);
-        nav1 = findViewById(R.id.nav_menuu);
-        drawer = findViewById(R.id.User_drawerr);
+    /*    nav1 = findViewById(R.id.nav_menuu);
+        drawer = findViewById(R.id.User_drawerr);*/
         img = findViewById(R.id.UserNavImage);
         toolbar = findViewById(R.id.User_Toolbar);
 
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                drawer.openDrawer(GravityCompat.START);
+               // drawer.openDrawer(GravityCompat.START);
             }
         });
-        nav1.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+       /* nav1.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 if (item.getItemId() == R.id.Menu_Home) {
@@ -133,7 +133,7 @@ public class CompleteCustomTrip extends AppCompatActivity {
                 return true;
             }
         });
-
+*/
 
         tripID = getIntent().getIntExtra("ctrip_id", 0);
         GetExpense(tripID);

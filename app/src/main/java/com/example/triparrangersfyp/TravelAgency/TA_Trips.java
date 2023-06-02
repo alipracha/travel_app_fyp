@@ -133,7 +133,7 @@ public class TA_Trips extends AppCompatActivity {
                         intent.putExtra(Intent.EXTRA_SUBJECT, "Share Demo");
                         String shareMessage = "https://play.google.com/store/apps/details?=" + BuildConfig.APPLICATION_ID + "\n\n";
                         intent.putExtra(Intent.EXTRA_TEXT, shareMessage);
-                        startActivity(intent.createChooser(intent, "ShareVia"));
+                        startActivity(Intent.createChooser(intent, "ShareVia"));
                     } catch (Exception e) {
                         Toast.makeText(TA_Trips.this, "Error", Toast.LENGTH_SHORT).show();
                     }

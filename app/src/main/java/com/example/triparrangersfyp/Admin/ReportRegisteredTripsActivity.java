@@ -45,7 +45,7 @@ public class ReportRegisteredTripsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_report_registered_trips);
 
 
-        tb=(Toolbar)findViewById(R.id.toolbars37);
+        tb= findViewById(R.id.toolbars37);
         setSupportActionBar(tb);
 
         tb.setNavigationOnClickListener(new View.OnClickListener() {

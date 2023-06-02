@@ -22,7 +22,7 @@ import java.util.List;
 
 public class TripAdapter extends BaseAdapter {
 
-    private Context mContext;
+    private final Context mContext;
     List<Trips> tripsList;
     LayoutInflater inflater;
 

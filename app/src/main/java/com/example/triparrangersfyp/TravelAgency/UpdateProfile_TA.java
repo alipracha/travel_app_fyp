@@ -129,8 +129,8 @@ public class UpdateProfile_TA extends AppCompatActivity {
         update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(validate())
-                Update_TravelAgencyData();
+                if(validate()){
+                Update_TravelAgencyData();}
 
             }
         });

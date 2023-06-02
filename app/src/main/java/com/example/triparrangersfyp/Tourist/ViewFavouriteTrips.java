@@ -58,7 +58,7 @@ public class ViewFavouriteTrips extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_favourite_trips);
 
-        listView=(ListView) findViewById(R.id.Favourite_ListView);
+        listView= findViewById(R.id.Favourite_ListView);
         tinyDb = new TinyDB(this);
         GetFvrtTrips(tinyDb.getInt("CUSTOMER_ID"));
         nav1 = findViewById(R.id.nav_menuU);
@@ -116,7 +116,7 @@ public class ViewFavouriteTrips extends AppCompatActivity {
                         intent.putExtra(Intent.EXTRA_SUBJECT, "Share Demo");
                         String shareMessage = "https://play.google.com/store/apps/details?=" + BuildConfig.APPLICATION_ID + "\n\n";
                         intent.putExtra(Intent.EXTRA_TEXT, shareMessage);
-                        startActivity(intent.createChooser(intent, "ShareVia"));
+                        startActivity(Intent.createChooser(intent, "ShareVia"));
                     } catch (Exception e) {
                         Toast.makeText(ViewFavouriteTrips.this, "Error", Toast.LENGTH_SHORT).show();
                     }

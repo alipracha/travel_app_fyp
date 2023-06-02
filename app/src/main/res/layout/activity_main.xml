@@ -19,9 +19,9 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
-        >
+        />
 
-        ></TextView>
+
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/Lottie"

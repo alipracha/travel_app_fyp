@@ -12,10 +12,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitClient {
 
     //GSON support init
-    private static Gson gson = new GsonBuilder().setLenient().create();
+    private static final Gson gson = new GsonBuilder().setLenient().create();
 
     //okhttp client  init
-    private static OkHttpClient
+    private static final OkHttpClient
             okHttpClient = new OkHttpClient().newBuilder()
             .connectTimeout(15, TimeUnit.SECONDS)
             .readTimeout(15, TimeUnit.SECONDS)

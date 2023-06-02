@@ -211,9 +211,9 @@ public class UpdateProfile_Tourist extends AppCompatActivity {
         Update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(validate())
-                Update_TouristData();
-
+                if (validate()){
+                    Update_TouristData();
+            }
             }
         });
 

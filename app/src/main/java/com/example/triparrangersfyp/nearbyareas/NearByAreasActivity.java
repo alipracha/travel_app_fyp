@@ -62,7 +62,7 @@ public class NearByAreasActivity extends AppCompatActivity implements
     Spinner nearby_spinner;
     String selectedCat;
     Button btn_nearby;
-    String nearby_array[] = {"Select nearby areas", "Petrol Pumps","Restaurants","Hospitals","Hotels","Tyre Shop"};
+    String[] nearby_array = {"Select nearby areas", "Petrol Pumps","Restaurants","Hospitals","Hotels","Tyre Shop"};
     private static final int PROXIMITY_RADIUS = 15000;
     double latitude, longitude;
     private static final int REQUEST_LOCATION_CODE = 10;
@@ -70,8 +70,8 @@ public class NearByAreasActivity extends AppCompatActivity implements
     private GoogleMap mMap;
     MarkerOptions place1;
     ProgressDialog progressDialog;
-    private static long INTERAl = 60 * 1000;
-    private static long FAST_INTERVAL = 15 * 1000;
+    private static final long INTERAl = 60 * 1000;
+    private static final long FAST_INTERVAL = 15 * 1000;
     private LocationRequest locationRequest;
     private Location lastLocation;
     private Marker currentLocationMarker;
@@ -359,27 +359,23 @@ public class NearByAreasActivity extends AppCompatActivity implements
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
+        if (requestCode == REQUEST_LOCATION_CODE) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-            case REQUEST_LOCATION_CODE:
+                if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+                        == PackageManager.PERMISSION_GRANTED) {
 
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    if (googleApiClient == null) {
 
-                    if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
-                            == PackageManager.PERMISSION_GRANTED) {
-
-                        if (googleApiClient == null) {
-
-                            buildGoogleApiClient();
-                            mMap.setMyLocationEnabled(true);
-                        } else {
-                            Toast.makeText(this, "Permission denied!", Toast.LENGTH_SHORT).show();
-                        }
-
-                        return;
+                        buildGoogleApiClient();
+                        mMap.setMyLocationEnabled(true);
+                    } else {
+                        Toast.makeText(this, "Permission denied!", Toast.LENGTH_SHORT).show();
                     }
+
+                    return;
                 }
-                break;
+            }
         }
     }
 

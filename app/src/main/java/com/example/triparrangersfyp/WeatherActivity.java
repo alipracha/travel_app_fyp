@@ -32,9 +32,9 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
-        et=(EditText) findViewById(R.id.weatherED);
-        tv=(TextView) findViewById(R.id.WeatherTV);
-        btn=(Button)findViewById(R.id.weatherbtn);
+        et= findViewById(R.id.weatherED);
+        tv= findViewById(R.id.WeatherTV);
+        btn= findViewById(R.id.weatherbtn);
         tv2=findViewById(R.id.Weatherrrr);
 
         btn.setOnClickListener(new View.OnClickListener() {

@@ -32,7 +32,7 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.loader.content.CursorLoader;
 
-import com.example.triparrangersfyp.BuildConfig;
+
 import com.example.triparrangersfyp.ComplaintActivity;
 import com.example.triparrangersfyp.Feedback;
 import com.example.triparrangersfyp.Login;
@@ -185,8 +185,8 @@ public class Add_CustomTrip extends AppCompatActivity {
         caddbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (validate())
-                Add_Custom_Trip();
+                if (validate()){
+                Add_Custom_Trip();}
             }
         });
 //

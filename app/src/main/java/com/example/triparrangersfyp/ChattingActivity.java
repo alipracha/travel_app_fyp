@@ -96,7 +96,7 @@ public class ChattingActivity extends AppCompatActivity {
         send = findViewById(R.id.SendMsg);
         Msg = findViewById(R.id.ChatMessage);
 
-        ViewMember = (Button) findViewById(R.id.ViewMembers);
+        ViewMember = findViewById(R.id.ViewMembers);
 
         GrpName = findViewById(R.id.GrpName);
 
@@ -341,14 +341,11 @@ public class ChattingActivity extends AppCompatActivity {
 
     @Override
     public boolean onContextItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.DeleteMessage:
-                Delete_Chat();
-                return true;
-            default:
-                return super.onContextItemSelected(item);
-
+        if (item.getItemId() == R.id.DeleteMessage) {
+            Delete_Chat();
+            return true;
         }
+        return super.onContextItemSelected(item);
     }
 
     private void Delete_Chat() {

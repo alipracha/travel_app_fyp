@@ -54,7 +54,7 @@ public class ViewTrips_User extends AppCompatActivity {
         payment = findViewById(R.id.paymentU);
         BookTrip = findViewById(R.id.BookTrip);
         ViewTA = findViewById(R.id.ViewTA);
-        tripStatus = findViewById(R.id.Status);
+       // tripStatus = findViewById(R.id.Status);
         fvrttrip= findViewById(R.id.fvrtTrip);
         detail_trip_img=findViewById(R.id.detail_trip_img);
 

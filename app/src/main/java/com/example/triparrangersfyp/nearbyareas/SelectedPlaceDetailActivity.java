@@ -234,7 +234,7 @@ public class SelectedPlaceDetailActivity extends AppCompatActivity
                 ratingbar.setRating(Float.parseFloat(rating));
             }
             selected_place_user_rating.setText(String.valueOf(user_ratings_total));
-            if (open_close == true) {
+            if (open_close) {
                 selected_place_operating_status.setText("Open");
                 selected_place_operating_status.setTextColor(Color.GREEN);
             } else {
