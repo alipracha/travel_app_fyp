@@ -1,0 +1,21 @@
+package com.example.triparrangersfyp.service;
+
+import com.example.triparrangersfyp.util.Endpoint;
+import com.google.gson.JsonObject;
+
+import retrofit2.Call;
+import retrofit2.http.Field;
+import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.Headers;
+import retrofit2.http.POST;
+
+
+public interface GetCustomTripsService {
+    @Headers({"Accept: application/json"})
+    @FormUrlEncoded
+    @POST(Endpoint.GET_CUSTOM_TRIPS_AGAINST_ID)
+    Call<JsonObject> getCustomTrips(
+            @Field("customer_id") int customer_id
+    );
+
+}
