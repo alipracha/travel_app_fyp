@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_list"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/senderLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#97DDF6F4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/ChatImg"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/recieverLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="#97459790"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/recievermsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Message"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/recieverChatImg"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY"></ImageView>
+    </LinearLayout>
+
+
+</RelativeLayout>
