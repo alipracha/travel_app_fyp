@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/drawable_list"
+        android:layout_height="match_parent"
+        android:backgroundTint="#f2f7f4"
+
+        >
+
+        <TextView
+            android:id="@+id/C_txtName"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="Name"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/C_Expense"
+            style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/C_txtName"
+            android:layout_marginLeft="5dp"
+            android:maxLength="50"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:text="Des" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
