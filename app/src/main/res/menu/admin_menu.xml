@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Admin_Menu_Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home"
+            >
+        </item>
+
+        </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Settings">
+            <menu>
+                <group>
+                    <item android:id="@+id/Admin_Manage_Profile"
+                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:title="Manage Profile"
+                        >
+                    </item>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+        <group android:checkableBehavior="single">
+                <item android:title="Communicate">
+                       <menu>
+                           <group>
+                               <item android:id="@+id/Admin_Menu_Share"
+                            android:icon="@drawable/ic_baseline_share_24"
+                            android:title="Share"
+                            >
+                        </item>
+                           </group>
+                       </menu>
+                </item>
+        </group>
+
+
+        <group android:checkableBehavior="single">
+                <item android:title="Authentication">
+                        <menu>
+                                <group>
+                                        <item
+                                            android:id="@+id/Admin_Menu_LogOut"
+                                            android:icon="@drawable/ic_baseline_exit_to_app_24"
+                                            android:title="Logout"
+                                            >
+                                        </item>
+                                </group>
+                        </menu>
+                </item>
+        </group>
+
+
+    </menu>

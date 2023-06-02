@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.triparrangersfyp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/fyplogo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TripArrangersFYP"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".DatewiseReporttt"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ReportRegisteredTripsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ReportFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ReportTravelAgencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ReportTripBookingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ReportRegisteredUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Reports"
+            android:exported="false" />
+        <activity
+            android:name=".JazzCashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="my_host"
+                    android:scheme="my_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Admin.UpdateAdminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.DetailedNotification"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.Notifications"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.CompleteCustomTrip"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewCustomTripDetailss"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.CustomizedTripsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewCustomTripMembers"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ExpenseDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.AddExpenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddMembers"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewFavouriteTrips"
+            android:exported="false" />
+        <activity
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".TermsAndConditions"
+            android:exported="false" />
+        <activity
+            android:name=".ManageMembers"
+            android:exported="false" />
+        <activity
+            android:name=".WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChattingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NearbyPlaces"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewCustomTrips"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.UpdateProfile_TA"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.UpdateProfile_Tourist"
+            android:exported="false" />
+        <activity
+            android:name=".ViewFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ConfirmedBookings_User"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewMyBookings_User"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.ViewBookingRequests_TA"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.Tourists_Options"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.RequestedTrips_TA"
+            android:exported="false" />
+        <activity
+            android:name=".Tab_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ShowSeatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewTADetails_User"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ApprovedTrips"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.ViewTrips_User"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Detailed_AllTrips"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.ManageAllTrips"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.ManageTrips"
+            android:exported="false" />
+        <activity
+            android:name=".nearbyareas.NearByAreasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".nearbyareas.SelectedPlaceDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Manage_Users"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.Detailed_CustomTrip"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.Users_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Tourist.Add_CustomTrip"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.Detailed_Trip"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Detailed_TA"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Detailed_User"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.TA_Details"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.Admin_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.AddTrip"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.TA_Trips"
+            android:exported="false" />
+        <activity
+            android:name=".TravelAgency.TA_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>
