@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/TAMenu_Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        >
+    </item>
+
+    <item
+        android:id="@+id/TAMenu_GenerateTrip"
+        android:icon="@drawable/ic_baseline_add_to_photos_24"
+        android:title="Generate Trip"
+        >
+    </item>
+    <item
+        android:id="@+id/TAMyTrips"
+        android:icon="@drawable/ic_baseline_business_center_24"
+        android:title="My Trips"
+        >
+    </item>
+
+    </group>
+
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Settings">
+            <menu>
+                <group>
+
+                    <item
+                        android:id="@+id/TAMenu_Profile"
+                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:title="Manage Profile"
+                        >
+                    </item>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <menu>
+                <group>
+
+                    <item
+                        android:id="@+id/TAMenu_Feedback"
+                        android:icon="@drawable/ic_baseline_feedback_24"
+                        android:title="Feedback"
+                        >
+                    </item>
+
+                    <item
+                        android:id="@+id/TAMenu_Share"
+                        android:icon="@drawable/ic_baseline_share_24"
+                        android:title="Share"
+                        >
+                    </item>
+
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Get Help">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/TATermsAndConditions"
+                        android:icon="@drawable/ic_baseline_article_24"
+                        android:title="Terms And Conditions"
+                        >
+                    </item>
+
+                    <item
+                        android:id="@+id/TAAboutUs"
+                        android:icon="@drawable/ic_baseline_help_24"
+                        android:title="About Us"
+                        >
+                    </item>
+                </group>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Authentication">
+            <menu>
+                <group>
+
+                <item
+                    android:id="@+id/TAMenu_Logout"
+                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:title="Logout"
+                    >
+                </item>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
