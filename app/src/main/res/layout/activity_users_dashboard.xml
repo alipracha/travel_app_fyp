@@ -27,7 +27,7 @@
                 android:id="@+id/UserNavImage"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_baseline_menu_24" />
+                android:src="@drawable/ic_baseline_menu" />
 
 
             <TextView
@@ -44,7 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="100dp"
-                android:src="@drawable/ic_baseline_notifications_24"></ImageView>
+                android:src="@drawable/ic_baseline_notifications"></ImageView>
 
         </androidx.appcompat.widget.Toolbar>
 
@@ -107,7 +107,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                android:drawableLeft="@drawable/ic_baseline_location_on"
                 android:text="Location"
                 android:textColor="@color/black" />
 
@@ -117,7 +117,7 @@
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@android:color/transparent"
-                android:drawableLeft="@drawable/ic_baseline_hdr_weak_24"
+                android:drawableLeft="@drawable/ic_baseline_hdr_weak"
                 android:text="Weather"
                 android:textColor="@color/black" />
 

@@ -73,7 +73,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:startIconDrawable="@drawable/ic_baseline_email_24"
+            app:startIconDrawable="@drawable/ic_baseline_email"
             app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -101,7 +101,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/Email_TV"
-            app:startIconDrawable="@drawable/ic_baseline_lock_24"
+            app:startIconDrawable="@drawable/ic_baseline_lock"
             app:startIconTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText

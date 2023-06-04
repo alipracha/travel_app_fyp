@@ -4,20 +4,20 @@
     <group android:checkableBehavior="single">
     <item
         android:id="@+id/TAMenu_Home"
-        android:icon="@drawable/ic_baseline_home_24"
+        android:icon="@drawable/ic_baseline_home"
         android:title="Home"
         >
     </item>
 
     <item
         android:id="@+id/TAMenu_GenerateTrip"
-        android:icon="@drawable/ic_baseline_add_to_photos_24"
+        android:icon="@drawable/ic_baseline_add_to_photos"
         android:title="Generate Trip"
         >
     </item>
     <item
         android:id="@+id/TAMyTrips"
-        android:icon="@drawable/ic_baseline_business_center_24"
+        android:icon="@drawable/ic_baseline_business_center"
         android:title="My Trips"
         >
     </item>
@@ -33,7 +33,7 @@
 
                     <item
                         android:id="@+id/TAMenu_Profile"
-                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:icon="@drawable/ic_baseline_settings"
                         android:title="Manage Profile"
                         >
                     </item>
@@ -51,14 +51,14 @@
 
                     <item
                         android:id="@+id/TAMenu_Feedback"
-                        android:icon="@drawable/ic_baseline_feedback_24"
+                        android:icon="@drawable/ic_baseline_feedback"
                         android:title="Feedback"
                         >
                     </item>
 
                     <item
                         android:id="@+id/TAMenu_Share"
-                        android:icon="@drawable/ic_baseline_share_24"
+                        android:icon="@drawable/ic_baseline_share"
                         android:title="Share"
                         >
                     </item>
@@ -74,14 +74,14 @@
                 <group>
                     <item
                         android:id="@+id/TATermsAndConditions"
-                        android:icon="@drawable/ic_baseline_article_24"
+                        android:icon="@drawable/ic_baseline_article"
                         android:title="Terms And Conditions"
                         >
                     </item>
 
                     <item
                         android:id="@+id/TAAboutUs"
-                        android:icon="@drawable/ic_baseline_help_24"
+                        android:icon="@drawable/ic_baseline_help"
                         android:title="About Us"
                         >
                     </item>
@@ -97,7 +97,7 @@
 
                 <item
                     android:id="@+id/TAMenu_Logout"
-                    android:icon="@drawable/ic_baseline_exit_to_app_24"
+                    android:icon="@drawable/ic_baseline_exit_to_app"
                     android:title="Logout"
                     >
                 </item>

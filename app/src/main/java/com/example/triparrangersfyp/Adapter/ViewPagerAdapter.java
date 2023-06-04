@@ -47,7 +47,7 @@ public class ViewPagerAdapter extends PagerAdapter {
 
         if (placeDetailList.isEmpty()) {
             Glide.with(context)
-                    .load(R.drawable.ic_baseline_menu_24)
+                    .load(R.drawable.ic_baseline_menu)
                     .into(viewpagercontainer);
         } else {
             Glide.with(context)

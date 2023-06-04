@@ -121,7 +121,7 @@ public class AddTrip extends AppCompatActivity {
 
                     startActivity(new Intent(getApplicationContext(), AddTrip.class));
                 }else if (item.getItemId() == R.id.TAMenu_Logout) {
-                    new android.app.AlertDialog.Builder(AddTrip.this).setIcon(R.drawable.ic_baseline_warning_24)
+                    new android.app.AlertDialog.Builder(AddTrip.this).setIcon(R.drawable.ic_baseline_warning)
                             .setTitle("Exit").setMessage("Are you sure you want to exit?")
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override

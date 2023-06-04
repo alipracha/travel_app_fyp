@@ -55,7 +55,7 @@
         android:layout_marginStart="240dp"
         android:textSize="10dp"
         android:background="@drawable/button_shape"
-        android:src="@drawable/ic_baseline_call_24"
+        android:src="@drawable/ic_baseline_call"
         ></Button>
     <ListView
         android:layout_width="match_parent"
@@ -86,7 +86,7 @@
             android:layout_height="30dp"
             android:id="@+id/attachment"
             android:layout_marginTop="7dp"
-            android:src="@drawable/ic_baseline_attachment_24"
+            android:src="@drawable/ic_baseline_attachment"
             ></ImageView>
 
       <Button

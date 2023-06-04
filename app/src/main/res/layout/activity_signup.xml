@@ -94,7 +94,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Logo"
-                app:startIconDrawable="@drawable/ic_baseline_supervised_user_circle_24"
+                app:startIconDrawable="@drawable/ic_baseline_supervised_user_circle"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -120,7 +120,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconDrawable="@drawable/ic_baseline_email"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -147,7 +147,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/Email_TV"
-                app:startIconDrawable="@drawable/ic_baseline_lock_24"
+                app:startIconDrawable="@drawable/ic_baseline_lock"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -173,7 +173,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Password_TV"
-                app:startIconDrawable="@drawable/ic_baseline_contact_phone_24"
+                app:startIconDrawable="@drawable/ic_baseline_contact_phone"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -198,7 +198,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Phone_TV"
-                app:startIconDrawable="@drawable/ic_baseline_assignment_ind_24"
+                app:startIconDrawable="@drawable/ic_baseline_assignment_ind"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -263,7 +263,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/teal_200"
-                    android:drawableLeft="@drawable/ic_baseline_photo_camera_24"
+                    android:drawableLeft="@drawable/ic_baseline_photo_camera"
                     android:text="Upload Image"
                     android:gravity="center"
                     android:layout_gravity="center"

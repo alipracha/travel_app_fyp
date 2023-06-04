@@ -184,7 +184,7 @@ public class ChattingActivity extends AppCompatActivity {
                             @Override
                             public void OnItemCLick(int pos) {
                                 CHATID = MessagesList.get(pos).getChat_ID();
-                                new android.app.AlertDialog.Builder(ChattingActivity.this).setIcon(R.drawable.ic_baseline_warning_24)
+                                new android.app.AlertDialog.Builder(ChattingActivity.this).setIcon(R.drawable.ic_baseline_warning)
                                         .setTitle("Exit").setMessage("Are you sure you want to Delete?")
                                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                             @Override

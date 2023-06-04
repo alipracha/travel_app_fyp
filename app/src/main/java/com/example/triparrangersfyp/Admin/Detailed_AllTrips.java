@@ -135,7 +135,7 @@ public class Detailed_AllTrips extends AppCompatActivity {
                 }
                 else if (item.getItemId() == R.id.Admin_Menu_LogOut) {
 
-                    new AlertDialog.Builder(Detailed_AllTrips.this).setIcon(R.drawable.ic_baseline_warning_24)
+                    new AlertDialog.Builder(Detailed_AllTrips.this).setIcon(R.drawable.ic_baseline_warning)
                             .setTitle("Exit").setMessage("Are you sure you want to exit?")
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override

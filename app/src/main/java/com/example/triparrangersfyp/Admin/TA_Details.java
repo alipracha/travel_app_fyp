@@ -100,7 +100,7 @@ public class TA_Details extends AppCompatActivity {
                 }
                 else if (item.getItemId() == R.id.Admin_Menu_LogOut) {
 
-                    new AlertDialog.Builder(TA_Details.this).setIcon(R.drawable.ic_baseline_warning_24)
+                    new AlertDialog.Builder(TA_Details.this).setIcon(R.drawable.ic_baseline_warning)
                             .setTitle("Exit").setMessage("Are you sure you want to exit?")
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override

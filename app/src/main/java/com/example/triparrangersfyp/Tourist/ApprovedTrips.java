@@ -95,7 +95,7 @@ public class ApprovedTrips extends AppCompatActivity {
 
                     startActivity(new Intent(getApplicationContext(), AddTrip.class));
                 }else if (item.getItemId() == R.id.TAMenu_Logout) {
-                    new AlertDialog.Builder(ApprovedTrips.this).setIcon(R.drawable.ic_baseline_warning_24)
+                    new AlertDialog.Builder(ApprovedTrips.this).setIcon(R.drawable.ic_baseline_warning)
                             .setTitle("Exit").setMessage("Are you sure you want to exit?")
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override
@@ -145,7 +145,7 @@ public class ApprovedTrips extends AppCompatActivity {
                 } else if (item.getItemId() == R.id.MyBookings) {
                     startActivity(new Intent(getApplicationContext(), ConfirmedBookings_User.class));
                 } else if (item.getItemId() == R.id.Menu_LogOut) {
-                    new AlertDialog.Builder(ApprovedTrips.this).setIcon(R.drawable.ic_baseline_warning_24)
+                    new AlertDialog.Builder(ApprovedTrips.this).setIcon(R.drawable.ic_baseline_warning)
                             .setTitle("Exit").setMessage("Are you sure you want to exit?")
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override

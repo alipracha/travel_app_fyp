@@ -34,7 +34,7 @@
                 android:layout_marginTop="5dp"
                 android:padding="10dp"
                 android:paddingBottom="50dp"
-                android:src="@drawable/ic_baseline_supervised_user_circle_24"
+                android:src="@drawable/ic_baseline_supervised_user_circle"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.631"
                 app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
                 app:layout_constraintBottom_toBottomOf="@+id/LogoAdd"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:rippleColor="@color/white"
-                app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+                app:srcCompat="@drawable/ic_baseline_camera_alt" />
 
             <com.google.android.material.textfield.TextInputLayout
 
@@ -71,7 +71,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_title_24"
+                app:startIconDrawable="@drawable/ic_baseline_title"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -99,7 +99,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_description_24"
+                app:startIconDrawable="@drawable/ic_baseline_description"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -131,7 +131,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_date_range_24"
+                app:startIconDrawable="@drawable/ic_baseline_date_range"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -162,7 +162,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_date_range_24"
+                app:startIconDrawable="@drawable/ic_baseline_date_range"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -194,7 +194,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_access_time_24"
+                app:startIconDrawable="@drawable/ic_baseline_access_time"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -226,7 +226,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_access_time_24"
+                app:startIconDrawable="@drawable/ic_baseline_access_time"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -259,7 +259,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_payment_24"
+                app:startIconDrawable="@drawable/ic_baseline_payment"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -289,7 +289,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_payment_24"
+                app:startIconDrawable="@drawable/ic_baseline_payment"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -320,7 +320,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_payment_24"
+                app:startIconDrawable="@drawable/ic_baseline_payment"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -350,7 +350,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LogoAdd"
-                app:startIconDrawable="@drawable/ic_baseline_payment_24"
+                app:startIconDrawable="@drawable/ic_baseline_payment"
                 app:startIconTint="@color/black">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -392,7 +392,7 @@
                 android:id="@+id/TANavImage"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
-                android:src="@drawable/ic_baseline_menu_24" />
+                android:src="@drawable/ic_baseline_menu" />
 
 
             <TextView

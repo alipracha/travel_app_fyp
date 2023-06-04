@@ -85,7 +85,7 @@ public class ManageTrips extends AppCompatActivity {
 
                     startActivity(new Intent(getApplicationContext(), AddTrip.class));
                 }else if (item.getItemId() == R.id.TAMenu_Logout) {
-                    new AlertDialog.Builder(ManageTrips.this).setIcon(R.drawable.ic_baseline_warning_24)
+                    new AlertDialog.Builder(ManageTrips.this).setIcon(R.drawable.ic_baseline_warning)
                             .setTitle("Exit").setMessage("Are you sure you want to exit?")
                             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                                 @Override

@@ -4,7 +4,7 @@
         <group android:checkableBehavior="single">
         <item
             android:id="@+id/Admin_Menu_Home"
-            android:icon="@drawable/ic_baseline_home_24"
+            android:icon="@drawable/ic_baseline_home"
             android:title="Home"
             >
         </item>
@@ -16,7 +16,7 @@
             <menu>
                 <group>
                     <item android:id="@+id/Admin_Manage_Profile"
-                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:icon="@drawable/ic_baseline_settings"
                         android:title="Manage Profile"
                         >
                     </item>
@@ -30,7 +30,7 @@
                        <menu>
                            <group>
                                <item android:id="@+id/Admin_Menu_Share"
-                            android:icon="@drawable/ic_baseline_share_24"
+                            android:icon="@drawable/ic_baseline_share"
                             android:title="Share"
                             >
                         </item>
@@ -46,7 +46,7 @@
                                 <group>
                                         <item
                                             android:id="@+id/Admin_Menu_LogOut"
-                                            android:icon="@drawable/ic_baseline_exit_to_app_24"
+                                            android:icon="@drawable/ic_baseline_exit_to_app"
                                             android:title="Logout"
                                             >
                                         </item>

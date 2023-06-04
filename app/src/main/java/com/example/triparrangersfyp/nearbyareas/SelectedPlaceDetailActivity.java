@@ -243,7 +243,7 @@ public class SelectedPlaceDetailActivity extends AppCompatActivity
             }
 
             if (piclist.isEmpty()) {
-                viewPager.setBackground(getDrawable(R.drawable.ic_baseline_image_24));
+                viewPager.setBackground(getDrawable(R.drawable.ic_baseline_image));
             } else {
                 viewPagerAdapter = new ViewPagerAdapter(SelectedPlaceDetailActivity.this, piclist);
                 viewPager.setAdapter(viewPagerAdapter);

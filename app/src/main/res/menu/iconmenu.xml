@@ -4,26 +4,26 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/Menu_Home"
-            android:icon="@drawable/ic_baseline_home_24"
+            android:icon="@drawable/ic_baseline_home"
             android:title="Home"></item>
 
         <item
             android:id="@+id/MyBookings"
-            android:icon="@drawable/ic_baseline_book_online_24"
+            android:icon="@drawable/ic_baseline_book_online"
             android:title="My Bookings"></item>
         <item
             android:id="@+id/your_trips_menu"
-            android:icon="@drawable/ic_baseline_book_online_24"
+            android:icon="@drawable/ic_baseline_book_online"
             android:title="Your Trips"></item>
 
 
         <item
             android:id="@+id/Menu_CustomizedTrip"
-            android:icon="@drawable/ic_baseline_add_to_photos_24"
+            android:icon="@drawable/ic_baseline_add_to_photos"
             android:title="Membership Trips"></item>
         <item
             android:id="@+id/Menu_Favt_Trip"
-            android:icon="@drawable/ic_baseline_favorite_24"
+            android:icon="@drawable/ic_baseline_favorite"
             android:title="Favourite Trips"></item>
 
 
@@ -35,7 +35,7 @@
 
                     <item
                         android:id="@+id/Menu_Profile"
-                        android:icon="@drawable/ic_baseline_settings_24"
+                        android:icon="@drawable/ic_baseline_settings"
                         android:title="Manage Profile"></item>
 
                 </group>
@@ -48,12 +48,12 @@
                 <group>
                     <item
                         android:id="@+id/Menu_Feedback"
-                        android:icon="@drawable/ic_baseline_feedback_24"
+                        android:icon="@drawable/ic_baseline_feedback"
                         android:title="Feedback"></item>
 
                     <item
                         android:id="@+id/Menu_Share"
-                        android:icon="@drawable/ic_baseline_share_24"
+                        android:icon="@drawable/ic_baseline_share"
                         android:title="Share"></item>
 
                 </group>
@@ -67,12 +67,12 @@
                 <group>
                     <item
                         android:id="@+id/TouristTermsAndConditions"
-                        android:icon="@drawable/ic_baseline_article_24"
+                        android:icon="@drawable/ic_baseline_article"
                         android:title="Terms And Conditions"></item>
 
                     <item
                         android:id="@+id/TouristAboutUs"
-                        android:icon="@drawable/ic_baseline_help_24"
+                        android:icon="@drawable/ic_baseline_help"
                         android:title="About Us"></item>
                 </group>
             </menu>
@@ -86,7 +86,7 @@
 
                     <item
                         android:id="@+id/Menu_LogOut"
-                        android:icon="@drawable/ic_baseline_exit_to_app_24"
+                        android:icon="@drawable/ic_baseline_exit_to_app"
                         android:title="Logout"></item>
                 </group>
             </menu>
